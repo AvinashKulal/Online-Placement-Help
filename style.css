@@ -1,0 +1,276 @@
+
+
+.icon{
+	
+	float:left;
+	margin-left:10px;
+	border:2px solid black;
+	border-radius:60px;
+}
+.grid-container{
+	
+	display:grid;
+	grid-template-columns:30% 70%;
+	border:1px solid black;
+	grid-row-gap:10px;
+	margin:20px;
+	height:90%;
+	background-color:white;
+	
+}
+.grid-container2{
+	
+	display:grid;
+	grid-template-columns:30% 70%;
+	grid-row-gap:10px;
+	margin:30px;
+	
+}
+.leftgrid{
+	background-color:#0066ff;
+	height:99%;
+	margin-right:20px;
+	border:2px solid white;
+	
+}
+.white-text{
+	
+	color:white;
+	font-family:Verdana;
+}
+h3{
+	
+	color:blue;
+	font-family:Calibri;
+	text-decoration:underline;
+	
+}
+.subtitle,h1{
+	color:#000088;
+	
+	font-family:Forte;
+}
+
+
+div span{
+	color:#03fff;
+	font-size:16px;
+	font-family:verdana;
+	
+}
+
+.container{
+	background-color:#229944;
+	width:50%;
+	height:60%;
+	padding:1px;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,.4);
+}
+
+
+input,select,textarea{
+
+	margin:20px 0px 0px 10px;
+	width:500px;
+	height:40px;
+	background-color:white;
+	border-radius:5px;
+}
+
+input[type="radio"]{
+
+	margin:opx;
+	width:30px;
+	height:15px;
+	background-color:red;
+	border-radius:5px;
+}
+
+
+
+input[type="submit"]{
+	color:white;
+	width:400px;
+	background-color:red;
+}
+
+
+.slider{
+	width:100%;
+	height:500px;
+	background-image:url("images/first.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border:2px solid black;
+	
+}
+
+
+.para{
+	color:green;
+	font-size:15px;
+	text-align:justify;
+	font-family:verdana;
+}
+
+
+
+
+.equal-grid{
+	
+	display:grid;
+	grid-template-columns:50% 50%;
+	padding:50px;
+	grid-gap:20px 20px;
+	margin:10px;
+	height:100%;
+}
+
+.grid-item{
+	padding:10px;
+	background-color:#efefef;
+	border:3px solid black;
+	border-radius:10px 10px 10px 10px;
+	
+}
+
+h2{
+	color:green;
+	font-family:elephant;
+}
+
+label{
+	
+	color:green;
+	font-weight:bold;
+	display:inline-block;
+}
+
+.containers{
+	background:linear-gradient(to right ,rgba(255,255,255,1),rgba(0,255,255,1),rgba(0,200,255,1),rgba(255,255,255,1),rgba(0,200,255,1),rgba(0,255,255,1),rgba(255,255,255,1));
+	border:2px double black;
+	padding-left:5px;
+}
+
+.grid-layout{
+	display:grid;
+	
+	grid-template-columns:25% 25% 25% 25%;
+	grid-column-gap:10px;
+	
+}
+
+.submit-button{
+	width:100%;
+	height:30px;
+	background:skyblue;
+	font-size:20px;
+	font-family:elephant;
+}
+
+.buttons{
+	width:400px;
+	height:35px;
+	
+	font-size:20px;
+	font-family:verdana;
+	background:skyblue;
+}
+
+
+
+.animate{
+	font-family:century;
+	color:yellow;
+	animation-name:fader;
+	animation-duration:2s;
+	animation-timing-function:linear;
+
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	
+}
+
+
+
+@keyFrames fader{
+	0%{
+		
+		color:orange;
+	}
+	50%{
+		
+		color:green;
+	}
+	100%{
+		
+		color:red;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: green;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	color:white;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+
+
+/* Create an active/current tablink class */
+.tab button.active {
+	color:black;
+  background-color: #efefef;
+}
+
+/* Style the tab content */
+.tabcontent {
+	
+  padding: 6px 12px;
+  border: 2px solid blue;
+  border-top: none;
+  background:#efefef;
+}
+
+
+
